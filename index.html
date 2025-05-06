@@ -2,26 +2,40 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Gangly's Portfolio</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      padding: 2rem;
-      background: #f5f5f5;
-    }
-    h1 {
-      color: #333;
-    }
-  </style>
+  <title>Owen Hushka Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Welcome to My Portfolio</h1>
-  <p>I'm Gangly. Here's what I've built:</p>
+  <header>
+    <h1>Owen Hushka</h1>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-  <ul>
-    <li>⚡ Custom Arduino PCB</li>
-    <li>🤖 RRT* Robot Path Planner</li>
-    <li>🌐 ESP32 Web API Server</li>
-  </ul>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Custom Arduino PCB</h3>
+      <p>Designed and fabricated a low-noise version of the Arduino Uno with better power filtering and USB-C support.</p>
+    </div>
+    <div class="project">
+      <h3>ESP32 Web Server</h3>
+      <p>Built a REST API running on an ESP32 to serve data to a Python GUI.</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm a graduating Electrical and Computer Engineering student from CU Boulder, passionate about PCB design, embedded systems, and building real things that solve real problems.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>GitHub: <a href="https://github.com/OwenHushka1">OwenHushka1</a></p>
+    <p>Email: owen@example.com</p>
+  </section>
 </body>
 </html>
