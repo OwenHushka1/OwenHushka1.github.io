@@ -1,40 +1,51 @@
+/* Basic Reset */
 body {
-    font-family: 'Segoe UI', sans-serif;
+    font-family: sans-serif;
     margin: 0;
-    padding: 2rem;
-    background: #f9f9f9;
-    color: #333;
+    padding: 0;
+    scroll-behavior: smooth;
+    background: #f4f4f4;
   }
   
-  header {
+  /* Navbar */
+  nav {
+    position: sticky;
+    top: 0;
     background: #222;
-    color: white;
-    padding: 1.5rem;
-    text-align: center;
-  }
-  
-  h1 {
-    margin: 0;
-    font-size: 2rem;
-  }
-  
-  nav a {
-    margin: 0 1rem;
-    color: white;
-    text-decoration: none;
-  }
-  
-  section {
-    margin: 2rem auto;
-    max-width: 800px;
-  }
-  
-  .project {
-    background: white;
     padding: 1rem;
-    border-radius: 8px;
-    margin-bottom: 1rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 100;
   }
-
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Sections */
+  section {
+    padding: 4rem 2rem;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
   
