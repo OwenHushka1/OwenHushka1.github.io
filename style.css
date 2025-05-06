@@ -15,6 +15,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 0 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
   }
   /* "Owen Hushka" branding */
   .brand a {
