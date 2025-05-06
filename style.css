@@ -47,3 +47,16 @@ nav {
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   }
   
+  .brand-item a {
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-decoration: none;
+    padding-right: 2rem; /* space it a bit from nav items */
+    cursor: pointer;
+  }
+  
+  .brand-item a:hover {
+    text-decoration: none; /* no underline on hover */
+  }
+  
