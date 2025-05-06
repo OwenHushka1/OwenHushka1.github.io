@@ -3,18 +3,19 @@ nav {
     position: sticky;
     top: 0;
     background: #222;
-    padding: 1rem 2rem;
+    padding: 1rem 0; /* not horizontal here */
     z-index: 100;
     width: 100%;
   }
+  
   
   /* Flexbox layout for nav content */
   .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 2rem;
   }
-  
   /* "Owen Hushka" branding */
   .brand a {
     color: white;
