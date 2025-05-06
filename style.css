@@ -5,43 +5,45 @@ nav {
     padding: 1rem 2rem;
     z-index: 100;
     width: 100%;
-}
-
+  }
   
-  .nav-container {
+  .nav-bar {
+    list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0;
+    padding: 0;
     max-width: 1000px;
     margin: 0 auto;
   }
   
-  .brand {
+  .nav-bar li a {
     color: white;
-    font-weight: bold;
-    font-size: 1.25rem;
     text-decoration: none;
+    font-weight: bold;
+    padding: 0 1rem;
   }
   
-  .brand:hover {
+  .nav-bar li a:hover {
     text-decoration: underline;
   }
   
-  nav ul {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
+  body {
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
+    background: #f4f4f4;
   }
   
-  nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  nav ul li a:hover {
-    text-decoration: underline;
+  section {
+    padding: 4rem 2rem;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   }
   
