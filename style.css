@@ -1,3 +1,4 @@
+/* === NAV BAR === */
 nav {
     position: sticky;
     top: 0;
@@ -15,7 +16,6 @@ nav {
     margin: 0 auto;
   }
   
-  /* "Owen Hushka" */
   .brand {
     color: white;
     font-weight: bold;
@@ -45,6 +45,7 @@ nav {
     text-decoration: underline;
   }
   
+  /* === PAGE BASE STYLING === */
   body {
     font-family: sans-serif;
     margin: 0;
