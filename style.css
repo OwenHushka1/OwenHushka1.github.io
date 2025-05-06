@@ -16,7 +16,8 @@ nav {
     align-items: center;
     padding-left: 1rem;   /* 👈 control left shift */
     padding-right: 1rem;  /* 👈 control right margin */
-    width: 100%;
+    max-width: 1000px;
+    margin: 0;
   }
   /* "Owen Hushka" branding */
   .brand a {
